@@ -1,0 +1,26 @@
+GET http://localhost:3000/states/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjU1MTgzMjYwfQ.Pf320cwG0ziF7ArtBzShCGQSXcgYcbwOJxjEOcxweLY
+###API1
+GET http://localhost:3000/states/8/
+###API2
+POST http://localhost:3000/districts/
+###API3
+GET http://localhost:3000/districts/322/
+###API4
+DELETE http://localhost:3000/districts/:districtId/
+###API5
+PUT http://localhost:3000/districts/:districtId/
+###API6
+GET http://localhost:3000/states/:stateId/stats/
+###API7
+GET http://localhost:3000/districts/2/details/
+###API8
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+###
